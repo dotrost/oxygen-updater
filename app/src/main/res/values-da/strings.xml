@@ -261,8 +261,8 @@ Det kan være nyttigt, hvis du vil:"</string>
 	<string name="error_maintenance">Server vedligeholdelse</string>
 	<string name="error_maintenance_message">Vent venligst. Serveren vil være tilgængelig meget snart.</string>
 	<!-- TODO: translate this string below -->
-	<string name="error_maintenance_retry"><![CDATA[The server may be down for maintenance. Try again after some time, or report it to us either via <a href="mailto:support@oxygenupdater.com">email</a> or on our <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
-	<string name="error_reload">Reload</string>
+	<string name="error_maintenance_retry"><![CDATA[Serveren er i øjeblikket ude af drift pga. vedligeholdelse. Venligst forsøg igen senere, eller rapportér det til os på enten <a href="mailto:support@oxygenupdater.com">email</a> eller <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
+	<string name="error_reload">Genindlæs</string>
 
 	<string name="error_unable_to_rate_app">Du kan ikke bedømme appen fordi Google Play Store mangler på din enhed.</string>
 
@@ -272,8 +272,8 @@ Det kan være nyttigt, hvis du vil:"</string>
 	<string name="delete_message_delete_button">Delete</string>
 
 	<string name="unsupported_device_warning_title">Ikke understøttet enhed</string>
-	<!-- TODO: translate the 2 strings below -->
-	<string name="carrier_exclusive_device_warning_message">It looks like you\'re using a carrier-exclusive device. Even though you\'re running OxygenOS, you won\'t be able to install updates. Carriers usually lock down the device so that users can\'t update or modify the firmware without permission from the carrier itself. This is a common practice in the USA: the "Local Upgrade" option is removed from carrier-exclusive versions of OxygenOS. This option is necessary to install updates by yourself, even if you don\'t use this app. Unfortunately, we can\'t do anything about this, as we\'re technically, and possibly, legally limited. Reach out to us via email or Discord for more clarity.</string>
+	<!-- TODO: translate the 1 strings below -->
+	<string name="carrier_exclusive_device_warning_message">Det ser ud til at din telefon er \"carrier-exclusive device\". Selvom du anvender OxygenOS, vil du ikke være i stand til at installere opdateringer. Teleudbydere låser normalt deres enheder så brugere ikke kan opdatere eller ændre firmware på egen hånd og slet ikke uden tilladelse fra udbyderen selv. Dette er en normal praksis i USA, hvor lokale opdateringer er fjernet i firmwaren som mulighed, når det er en såkaldt \"carrier-exclusive version\" af OxygenOS. Netop denne indstilling er nødvendig for at kunne installere opdateringer på egen hånd også selv du ikke bruger denne app. Vi kan desværre ikke gøre noget ved dette eller telefonens lås, hvis du er i tvivl kan du række ud til os på email eller Discord.</string>
 	<string name="unsupported_device_warning_message">Congratulations on your new OnePlus device! Unfortunately, we haven\'t added support for this device yet. Don\'t worry though, we\'ll add it as soon as we can. We don\'t like making mistakes, and it\'s a time-consuming process to verify and test support for new devices, so please be patient. Email us or join our Discord server if you\'d like to help us, or to get notified when we release a new version of the app that includes support for your device.</string>
 	<string name="unsupported_os_warning_message">Det lader til at din enhed ikke har OxygenOS. Bemærk, at du kan kun installere system opdateringer på enheder der kører med OxygenOS.\n\nAndre enheder, her i blandt OnePlus enheder der kører med Brugertilpassede ROM\'s, uderstøttes ikke.</string>
 
