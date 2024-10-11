@@ -30,15 +30,14 @@
 	<string name="new_app_version_inapp_failed">Opdateringen af app kunne ikke gennemføres. Tryk her for at åbne Google Play og update.</string>
 
 	<!-- Downloader strings-->
-	<!-- TODO: translate this string below -->
-	<string name="grant_all_files_access">Please enable \"All files access\" for the app, which is used only for downloading OTA ZIPs to the topmost directory of internal storage</string>
+	<string name="grant_all_files_access">Du skal slå \"All files access\" til for at app\'en kan fungere ordentlig, som app\'en udelukkende skal bruge for at kunne downloade OTA ZIPs til rodbiblioteket på din enhed.</string>
 	<string name="download">Download opdatering</string>
 	<string name="downloaded">Opdatering downloadet</string>
 	<string name="downloading">Downloader opdatering…</string>
 	<string name="paused">Pauset - Tryk for at genoptage</string>
 
 	<string name="download_complete">Download færdig</string>
-	<string name="download_complete_notification">Tryk på: start nstallation</string>
+	<string name="download_complete_notification">Tryk på: Start installation</string>
 
 	<string name="download_error">Fejl i download</string>
 	<string name="download_error_close">Luk</string>
@@ -50,7 +49,7 @@
 	<string name="download_error_unsuccessful_explanation_file_removed">"Det kan betyde, at OnePlus har fjernet OTA-opdateringsfilen fra deres servere."</string>
 	<string name="download_error_unsuccessful_explanation_generic">"For det meste tyder det på et problem med OnePlus' OTA-servere, men det kan også være din internetforbindelse."</string>
 	<string name="download_error_unsuccessful_suffix"><![CDATA[Vores team har fået besked, og vi ser på det så hurtigt som muligt. Bemærk, at fordi vores app downloader direkte fra officielle OTA-servere, er der ikke meget, vi kan gøre. Du kan muligvis stadig få adgang til OTA-opdateringsfilen ved at bruge en VPN eller en anden internetforbindelse. Du er velkommen til at <a href="mailto:support@oxygenupdater.com">emaile os</a> eller deltage i vores <a href="https://discord.gg/5TXdhKJ">Discord-server</a>.]]></string>
-	<string name="download_error_could_not_move_temp_file">The file has been downloaded, but couldn\'t be moved to the correct directory. Open a file manager, navigate to \"%1$s\" and manually move the file to the topmost directory of internal storage.</string>
+	<string name="download_error_could_not_move_temp_file">Filen er blevet downloadet, men den kan ikke flyttes til det korrekte bibliotek for at kunne bruges. Du kan vha. \'File Manager\', Navigér til \"%1$s\" og manuelt flytte filen til rodbiblioteket for at kunne bruge den til lokale opdateringer.</string>
 
 	<string name="download_error_retry">Prøv igen</string>
 	<string name="download_error_resume">Genoptag</string>
@@ -58,8 +57,8 @@
 
 	<string name="download_failed">Download fejlede</string>
 	<string name="download_pending">Din download vil starte om et øjeblik …</string>
-	<string name="download_notification_error_server">Serverfejl under download.forsøg. Genstart download.</string>
-	<string name="download_notification_error_internal">Teknisk fejl er hændt under download. Genstart download eller kontakt supporten.</string>
+	<string name="download_notification_error_server">Serverfejl under download-forsøget. Genstart download.</string>
+	<string name="download_notification_error_internal">Teknisk fejl er sket under download. Genstart download eller kontakt vores support via email eller Discord.</string>
 	<string name="download_notification_error_storage_full">Manglende ledig plads lagerplads.</string>
 	<string name="download_notification_error_corrupt">Fil-undersøgelse fejlede. Check din forbindelse, og prøv igen.</string>
 
@@ -89,10 +88,9 @@
 	<string name="summary_off">Deaktiveret</string>
 	<string name="summary_please_wait">Vent venligst …</string>
 	<string name="summary_update_method">vælg en enhed først</string>
-	<!-- TODO: check the following translation -->
 	<string name="summary_important_notifications_disabled">Nogle vigtige meddelelser er deaktiveret:</string>
 	<string name="summary_privacy_policy">Se online</string>
-	<string name="summary_rate_app">Giv os en 5-stjernet anmeldelse</string>
+	<string name="summary_rate_app">Giv os gerne en 5-stjernet anmeldelse</string>
 
 	<string name="label_buy_ad_free">Fjern reklamer</string>
 	<string name="label_theme">Tema</string>
@@ -160,12 +158,11 @@ Det kan være nyttigt, hvis du vil:"</string>
 
 	<!-- Install guide strings -->
 	<string name="install_guide">Installations guide</string>
-	<!-- TODO: translate this string below -->
-	<string name="install_guide_download_instructions">&#8226; Tryk på Download knappen, for at starte med at downloade opdateringen.\n&#8226; The download progress will appear in the app, and as a notification in your notifications screen.\n&#8226; When the download has finished, you\'ll see a notification with the text \"Download complete\". If a download error occurred, open the app and try to download it again. If this doesn\'t work, make sure you have a working connection. Otherwise, contact the developer of the app. You can do this by visiting the \"My apps\" section of the Google Play Store.</string>
+	<string name="install_guide_download_instructions">&#8226; Tryk på Download-knappen, for at starte med at downloade opdateringen.\n&#8226; Downloaden vil være synlig i app\'en og en notifikation bliver synlig, hvor du kan følge fremdriften på downloaden.\n&#8226; Når downloaden er færdig, vil du se en notifikation med teksten:  \"Download færdig\". Hvis der opstår en fejl under downloaden, så genåbn app\'en og forsøg at downloade igen. Hvis dette ikke virker, overvej eks. om du har forbindelse internettet. Alternativt kan du kontakte supporten via email eller Discord.</string>
 
 	<!-- Device information strings -->
 	<string name="device_information_supported_oxygen_os">Din enhed er supporteret</string>
-	<string name="device_information_carrier_exclusive_oxygen_os">Din enhed er ikke supporteret, da det er carrier-exclusive enhed</string>
+	<string name="device_information_carrier_exclusive_oxygen_os">Din enhed er ikke supporteret, da det er en såkaldt \'carrier-exclusive\' enhed</string>
 	<string name="device_information_unsupported_oxygen_os">Vi har ikke tilføjet support for din nye enhed endnu</string>
 	<string name="device_information_unsupported_os">Din enhed er ikke supporteret, da den ikke anvender OxygenOS</string>
 
@@ -187,9 +184,8 @@ Det kan være nyttigt, hvis du vil:"</string>
 
 	<!-- About screen strings -->
 	<string name="about">Om</string>
-	<!-- TODO: translate the 2 strings below -->
-	<string name="about_description">This app downloads official updates directly from OnePlus servers, and even verifies the integrity of the downloaded ZIP before allowing you to install. By doing so, the app allows you to skip the rollout queue and install official updates ASAP. If you encounter bugs in the OS, report them to OnePlus directly: <a href="https://forums.oneplus.com/feedback">https://forums.oneplus.com/feedback</a>. You might want to join our <a href="https://discord.gg/5TXdhKJ">Discord server</a> as well, so that you can talk to other users about the latest updates. Otherwise feel free to email us at <a href="mailto:support@oxygenupdater.com">support@oxygenupdater.com</a> with your suggestions/feedback.</string>
-	<string name="about_support">If you\'d like to support us, you can either buy the ad-free unlock (app\'s settings), or check our <a href="https://patreon.com/oxygenupdater">Patreon page</a>.</string>
+	<string name="about_description">Denne app bruger de officielle udgivne opdateringer direkte OnePlus serverne og verificierer i den forbindelse integriteten af ZIP-fildownloaden før du får lov til at installere den. Ved at gøre det sådan kan du ved at bruge denne app springe den officielle udrulningsproces ud og få opdateringer langt hurtigere og så snart de udkommer fra OnePlus. Hvis du oplever fejl i OS\'et du har downloadet, kan du rapportere dem til OnePlus direkte: <a href="https://forums.oneplus.com/feedback">https://forums.oneplus.com/feedback</a>. Du kan måske have interesse i at deltage på  <a href="https://discord.gg/5TXdhKJ">Discord server</a> også, hvor du har mulighed for at drøfte problemstillinger med andre brugere. Alternativt er du velkommen til at skrive til <a href="mailto:support@oxygenupdater.com">support@oxygenupdater.com</a> med dine forslag eller generel feedback.</string>
+	<string name="about_support">Hvis du gerne vil hjælpe og støtte os, så kan du enten købe den reklamefri version i (app\'en indstillinger), alternativt check vores <a href="https://patreon.com/oxygenupdater">Patreon page</a>.</string>
 	<string name="about_background_story_header">Baggrund</string>
 	<string name="about_background_story">Denne app blev oprindeligt udviklet af Arjan Vlek, som opfølgning af en af hans andre apps, med navnet <a href="https://cyanogenupdatetracker.com/">Cyanogen Update Tracker</a> (den tilbyder samme funktionalitet til Oyanogen OS brugere).\n\nEfter 4 år, i juli 2019, besluttede Arjan sig for trappe ned på sine projekter og vidergav ejerskabet af denne app til et hold af udviklere, fra forskellige lande. De tog så ansvaret for, at tilvejebringe et fællesskab med fantastisk service og give support til og af OnePlus opdateringer hurtigere.\nDu kan finde mere information om dette via <a href="https://oxygenupdater.com/article/81/">&#8226;linket</a>.\n\nDen 14. august 2019 blev den første opdatering offentliggjort og markerede ejerskiftet; den kom med muligheder som mørkt tema, et komplet re-design af appen.\n\nFor more information omkring holdet, besøg linket <a href="https://oxygenupdater.com/team/"> her</a>.</string>
 	<string name="about_third_party_app_notice">Bemærk venligst, at dette IKKE er en officiel OnePlus applikation.\nOnePlus mavmet, OnePlus logo\'et og OxygenOS er ejendele af OnePlus.\nAndroid, Google, Google Play og Google Play logo\'er er registrerede varemærker tilhørende Google Inc.\nDenne app amvemder data fra OnePlus og dets moderselskab Oppo, til at vise opdateringsinformation.</string>
@@ -216,22 +212,18 @@ Det kan være nyttigt, hvis du vil:"</string>
 	<string name="device_notification_channel_name">Ny enhed understøttet</string>
 	<string name="general_notification_channel_name">Generelt</string>
 	<string name="url_submitted_notification_channel_name">OTA URL indsendt</string>
-	<!-- TODO: translate 2 strings below -->
-	<string name="download_status_notification_channel_description">Notifications that reflect the current state of a download: pending, active, completed, or failed</string>
-	<string name="verification_status_notification_channel_description">Notifications that reflect the current state of a file verification task: in-progress, completed, or failed.\nMD5 checksums for downloaded files are verified to ensure the file hasn\'t been tampered with, and is a valid update file.</string>
+	<string name="download_status_notification_channel_description">Notifikationer vil vise nuværende status for en download: afventer, aktiv, færdig, eller fejlet</string>
+	<string name="verification_status_notification_channel_description">Notifikationer, der afspejler den nuværende status for verifikationen af filerne: i gang, færdig, or fejlet.\nMD5 Checksummen for downloadede opdateringer bliver verificeret for at sikre, at du får en valid og sikker opdateringsfil.</string>
 	<string name="installation_status_notification_channel_description">Få underretninger hvis en opdatering gennemføres eller fejler</string>
-	<!-- TODO: translate this string below -->
-	<string name="update_notification_channel_description">Get notified when there\'s a new update available for your selected device &amp; update method</string>
+	<string name="update_notification_channel_description">Få notifikationer, når der er nye opdateringer tilgængelige for din enhed og din opdateringsmetode</string>
 	<string name="news_notification_channel_description">Få underretninger når der bliver udgivet en nyhedsartikel</string>
 	<string name="device_notification_channel_description">Få underretninger nå en ny enhed er understøttet af app</string>
-	<!-- TODO: translate 2 strings below -->
-	<string name="general_notification_channel_description">General notifications that don\'t fit into other categories</string>
+	<string name="general_notification_channel_description">Generelle notifikationer, der ikke passer ind i andre kategorier</string>
 	<string name="url_submitted_notification_channel_description">Få besked, når du har sendt OTA-URL\'er til vores team.\nDu kan fravælge automatisk indsendelse af URL\'er i appens indstillinger.</string>
 
 	<!-- News strings -->
 	<string name="news">Nyheder</string>
 	<string name="news_load_network_error">Kan ikke åbne denne artikkel. Check din forbindelse og tryk på \'Forsøg igen\' -knappen for at åbne artikllen.</string>
-	<!-- TODO: translate this string below -->
 	<string name="news_unread_count_1">Du har %1$d ulæst nyhedsartikel. Tryk her for at læse.</string>
 	<string name="news_unread_count_2">Du har %1$d ulæst nyhedsartikel. Tryk her for at få vist alle artikler.</string>
 	<string name="news_mark_read">Marker som læst</string>
@@ -260,7 +252,6 @@ Det kan være nyttigt, hvis du vil:"</string>
 	<string name="error_google_play_button_text">Google Play</string>
 	<string name="error_maintenance">Server vedligeholdelse</string>
 	<string name="error_maintenance_message">Vent venligst. Serveren vil være tilgængelig meget snart.</string>
-	<!-- TODO: translate this string below -->
 	<string name="error_maintenance_retry"><![CDATA[Serveren er i øjeblikket ude af drift pga. vedligeholdelse. Venligst forsøg igen senere, eller rapportér det til os på enten <a href="mailto:support@oxygenupdater.com">email</a> eller <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
 	<string name="error_reload">Genindlæs</string>
 
@@ -272,9 +263,8 @@ Det kan være nyttigt, hvis du vil:"</string>
 	<string name="delete_message_delete_button">Delete</string>
 
 	<string name="unsupported_device_warning_title">Ikke understøttet enhed</string>
-	<!-- TODO: translate the 1 strings below -->
 	<string name="carrier_exclusive_device_warning_message">Det ser ud til at din telefon er \"carrier-exclusive device\". Selvom du anvender OxygenOS, vil du ikke være i stand til at installere opdateringer. Teleudbydere låser normalt deres enheder så brugere ikke kan opdatere eller ændre firmware på egen hånd og slet ikke uden tilladelse fra udbyderen selv. Dette er en normal praksis i USA, hvor lokale opdateringer er fjernet i firmwaren som mulighed, når det er en såkaldt \"carrier-exclusive version\" af OxygenOS. Netop denne indstilling er nødvendig for at kunne installere opdateringer på egen hånd også selv du ikke bruger denne app. Vi kan desværre ikke gøre noget ved dette eller telefonens lås, hvis du er i tvivl kan du række ud til os på email eller Discord.</string>
-	<string name="unsupported_device_warning_message">Congratulations on your new OnePlus device! Unfortunately, we haven\'t added support for this device yet. Don\'t worry though, we\'ll add it as soon as we can. We don\'t like making mistakes, and it\'s a time-consuming process to verify and test support for new devices, so please be patient. Email us or join our Discord server if you\'d like to help us, or to get notified when we release a new version of the app that includes support for your device.</string>
+	<string name="unsupported_device_warning_message">Tillykke med din nye OnePlus enhed! Vi har på nuværende tidspunkt ikke support for denne enhedstype endnu. Vi forventer at have din enhed supporteret snarest. Vi bryder os ikke om fejltagelser så derfor bruger vi tid på at gøre ting ordentligt, således du får en afprøvet og aftestet opdateringsproces for din enhed. Email eller deltag på Discord, hvis du kunne tænke dig at hjælpe os eller får notifikationer om nye versioner af denne app, som inkluderer oplysninger om din enhed.</string>
 	<string name="unsupported_os_warning_message">Det lader til at din enhed ikke har OxygenOS. Bemærk, at du kan kun installere system opdateringer på enheder der kører med OxygenOS.\n\nAndre enheder, her i blandt OnePlus enheder der kører med Brugertilpassede ROM\'s, uderstøttes ikke.</string>
 
 	<string name="incorrect_device_warning_title">Valgt enhed stemmer ikke overens</string>
@@ -283,12 +273,10 @@ Det kan være nyttigt, hvis du vil:"</string>
 	<string name="do_not_show_again_checkbox">Vis ikke igen</string>
 
 	<!-- Purchasing strings -->
-	<!-- TODO: translate this string below -->
-	<string name="purchase_error_pending_payment">Your purchase is in the \"payment pending\" state. Once payment is completed, you\'ll be granted all benefits that you\'re entitled to.</string>
-	<string name="purchase_error_after_payment">Købet af den reklamefri version fejlede, på grund af en intern internal fejl. Prøv igen om et par minutter. Har du allerede betalt, kontakt Google Play support for at få hjælp.</string>
+	<string name="purchase_error_pending_payment">Dit køb afventer med status \"payment pending\". Når betalingen er gennemført vil du automatisk få adgang til dine fordele.</string>
+	<string name="purchase_error_after_payment">Købet af den reklamefri version fejlede, på grund af en intern internal fejl. Venligst, prøv igen om et par minutter. Har du allerede betalt, kontakt Google Play support for at få hjælp.</string>
 
 	<!-- Other strings-->
-	<!-- TODO: translate this string below -->
 	<string name="icon">Ikon</string>
 	<string name="loading">Indlæser…</string>
 	<string name="processing">Arbejder…</string>
